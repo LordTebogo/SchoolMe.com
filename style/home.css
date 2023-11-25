@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+nav ul{
+    float: left;
+    padding-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+    list-style: none;
+}
+nav ul li:hover{
+    text-decoration: underline rgb(184, 23, 146);
+    transition: 2s;
+}
+nav {
+    height: 80px;
+    background: #b61414;
+}
+img{
+    float: left;
+}
+nav ul li a{
+    color: rgb(184, 23, 146);
+    padding-left: 10px;
+}
+.menubtn{
+    margin: 5px 10px 0px 0px;
+    float: right;
+    padding: 10px;
+    font-size: 1.5em;
+    display: none;
+    cursor: pointer;
+    
+}
+
+.Main{
+    margin: 10px;
+}
+.border{
+    border-top: 1px solid #000;
+}
+#math{
+    border: none;
+    width: 7%;
+    
+}
+.squareRoot{
+    width: max-content;
+    
+}
+.ticks .squareRoot i input{
+    size: i;
+    padding: 0 0 0 0;
+    
+}
+
+
+@media only screen and (max-width: 700px){
+    
+   #menu {
+    visibility: hidden;
+    float: right;
+    border: 1px solid;
+    width: 100px;
+    background-color: rgb(97, 27, 27);
+   }
+   nav ul{
+    float: left;
+    padding: 0;
+}
+   #menu li a{
+    width: 100%;
+    padding: 0;
+    color: rgb(255, 0, 119);
+    
+   }
+
+   .menubtn{
+    display: block;
+   }
+   
+
+    }
+   

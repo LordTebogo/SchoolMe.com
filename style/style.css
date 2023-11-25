@@ -1,0 +1,44 @@
+html {
+    
+    background: blue;
+    color: aliceblue;
+    background-image: url("../images/icon.png");
+    background-repeat: repeat;
+    
+    background-position: center 40px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.inputtxt, .radio, #CreatePass{
+    
+    text-align: center;
+    
+}
+
+#formBtn{
+    border-radius: 10px;
+}
+header{
+    
+    border-style: groove;
+    border-radius: 15px;
+    border-top: none;
+   border-color: coral;
+   background-color: rgb(25, 25, 25);
+   height: 100px;
+   
+}
+img{
+    margin: 6px 0px 0px 5px;
+    
+}
+h1{ 
+    
+    width: 50%;
+   transform: translate(100px,-70px);
+   color: red;
+}
