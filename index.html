@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="Icon" href="images/icon.png">
+    
+</head>
+    
+<body>
+    <header id="heading">
+         
+        <img src="images/icon.png" alt="Icon" width="90">
+        <h1>SchoolFides registration.</h1>
+    </header>
+
+   <br />
+   <form action="#" method="post">
+    <div class="radio">
+       <label for="position">you are?</label><br />
+       <label for="pos">Learner:</label>
+       <input type="radio" id="pos" name="position" value="Learner" required/>
+       <label for="Teacher">Teacher:</label>
+       <input type="radio" id="Teacher" name="position" value="Teacher" />
+       <label for="parent">Parent:</label>
+       <input type="radio" id="parent" name="position" value="Parent" />
+    </div>
+    <div class="inputtxt">
+       <label for="fname">Name:</label><br>
+       <input type="text" id="fname" name="fname" required/><br />
+       <label for="lname">Surname:</label><br>
+       <input type="text" id="lname" name="lname" /><br />
+       <label for="dbirth">Date of birth:</label><br>
+       <input type="text" id="dbirth" name="dbirth" /><br />
+       <label for="Province">Province:</label><br>
+       <input type="text" id="Province" name="Province" /><br />
+       <label for="Adress">Adress:</label><br>
+       <input type="text" id="Adress" name="Adress" /><br />
+       <label for="Contacts">Contacts:</label><br>
+       <input type="text" id="Contacts" name="Contacts" /><br />
+    </div>
+    <div class="inputtxt">
+       <label for="Register">Registering with school?</label><br>
+       <label for="register">yes</label>
+       <input type="radio" id="register" name="register" value="yes" />
+       <label for="register2">no</label>
+       <input type="radio" id="register2" name="register" value="no" />
+       
+    </div>
+    <div class="inputtxt">
+       <label for="School">School Name:</label><br>
+       <input type="text" id="School" name="School" /><br />
+       <label for="Grade">Grade:</label><br>
+       <input type="text" id="Grade" name="Grade" /><br />
+    </div>
+    <div class="inputtxt">
+       <label for="all-disable">Do you have any disability?</label><br>
+       <label for="disable">yes</label>
+       <input type="radio" id="disable" name="disable" value="yes" onclick="bring()" />
+       <label for="disable2">no</label>
+       <input type="radio" id="disable2" name="disable" value="no" onclick="remover()"/>
+       
+    </div>
+    <div class="inputtxt" id="rem">
+      <div class="disability" id="dis">
+       <label for="type">type of disability.</label><br>
+       <input type="text" id="type" name="type" required/> <br>
+      </div>
+   </div>
+      <div id="CreatePass">
+       <label for="password">Create password:</label><br>
+       <input type="password" id="password" name="password"  required/><br />
+       <label for="password2">re-type your password:</label><br>
+       <input type="password" id="password2" name="password" required/><br /><br>
+       <input type="submit" id="formBtn" name="submit" class="formBtn" /><br />
+      </div>
+    
+
+   </form>
+   
+   
+</body>
+<script src="js/index.js"></script>
+
+</html>
